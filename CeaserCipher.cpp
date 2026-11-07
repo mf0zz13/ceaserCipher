@@ -56,6 +56,7 @@ string encoder(string message, int shift) {
         asciiValue += shift;
 
         asciiValue = asciiValue > 122? (asciiValue - 26) : asciiValue;
+        asciiValue = asciiValue < 97? (asciiValue + 26) : adciiValue;
 
         message[i] = char(asciiValue);
     }
