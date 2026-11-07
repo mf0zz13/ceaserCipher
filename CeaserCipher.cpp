@@ -6,6 +6,12 @@ using namespace std;
 string encoder(string message, int shift);
 string decooder(string message, int shift);
 
+enum class Operation {
+    Encode,
+    Decode,
+    Exit
+}
+
 int main() {
     bool exit = false;
 
