@@ -33,6 +33,8 @@ int main() {
             cin >> shift;
             cin.ignore();
 
+            shift = shift % 26;
+
             encodedMessage = encoder(messageToEncode, shift);
 
             cout << format("Encoded message: {}", encodedMessage) << endl;
