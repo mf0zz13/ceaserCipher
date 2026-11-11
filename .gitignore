@@ -66,3 +66,38 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio workspace and per-user settings
+.vs/
+*.vcxproj.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio C++ build output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+Win32/
+
+# Native compiler, linker, and IntelliSense caches
+ipch/
+*.VC.db
+*.VC.opendb
+*.ipch
+*.idb
+*.ipdb
+*.iobj
+*.exp
+*.tlog
+*.lastbuildstate
+*.aps
+*.sdf
+*.opensdf
+*.ncb
+*.bsc
+*.sbr
+*.res
